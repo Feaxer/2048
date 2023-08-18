@@ -28,7 +28,6 @@ export function rotateMatrix(matrix: number[][], direction: RotationDirection): 
     return rotatedMatrix
 }
 
-// Function to print matrix
 export function printMatrix(matrix: number[][]): void {
     for (let i = 0; i < matrix.length; i++) {
         let row = ""
